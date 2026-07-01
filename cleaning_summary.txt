@@ -1,0 +1,27 @@
+Loaded 'Mall_Customers.csv' -> 200 rows, 5 columns
+Original columns: ['CustomerID', 'Gender', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+
+Renamed columns: {'CustomerID': 'customerid', 'Gender': 'gender', 'Age': 'age', 'Annual Income (k$)': 'annual_income_k', 'Spending Score (1-100)': 'spending_score_1100'}
+
+Missing values BEFORE cleaning:
+None found
+Missing values AFTER cleaning: 0
+
+Duplicate rows found & removed: 0
+
+Standardized text formatting (trimmed spaces, Title Case) in columns: ['gender']
+Standardized 'gender' values -> ['Female', 'Male']
+
+No date columns present in this dataset (Mall_Customers.csv has none).
+
+Enforced data types: {'customerid': 'Int64', 'age': 'Int64', 'annual_income_k': 'Int64', 'spending_score_1100': 'Int64'}
+
+Final dtypes:
+customerid             Int64
+gender                   str
+age                    Int64
+annual_income_k        Int64
+spending_score_1100    Int64
+
+Final shape: 200 rows, 5 columns (removed 0 rows total)
+Cleaned dataset saved to 'Mall_Customers_cleaned.csv'
