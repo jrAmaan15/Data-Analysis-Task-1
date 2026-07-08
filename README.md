@@ -1,4 +1,3 @@
-# Data-Analysis-Task-1
 Mall Customers – Data Cleaning & preprocessing 
 
 A Python (Pandas) script that takes a raw customer dataset and runs it through a full data-cleaning pipeline: handling missing values, removing duplicates, standardizing text, fixing data types, and cleaning up column names — producing an analysis-ready CSV plus a change log.
